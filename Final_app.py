@@ -8,7 +8,7 @@ import xgboost
 from sklearn.preprocessing import StandardScaler
 
 # OpenAI API Key (ensure this is set securely in your environment)
-openai.api_key = "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"
+openai.api_key = "YOUR API KEY"
 
 # Load trained model and scaler
 model = joblib.load("xgboost_heloc_model.pkl")
